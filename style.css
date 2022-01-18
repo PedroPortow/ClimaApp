@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e0e0e0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.container{
+    height: 100vh;
+}
+
+.cardArea, .cardAreaResposta{
+    border-radius: 50px;
+    background: #e0e0e0;    
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.cardArea{
+    opacity: 1;
+}
+
+.countryName{
+    background-color: orange;
+    width: 2rem;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.temp{
+    font-size: 6rem;
+}
+
+.square{
+    height: auto;
+ 
+    background-color: white;
+    transition: 2s ease-in-out;
+}
